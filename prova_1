@@ -1,0 +1,7 @@
+#programma per doppiare i dati
+def doppiatore (dato):
+    risultato=dato*2
+    return risultato
+dato = input ("dimmi cosa doppiare: ")
+dato = int (dato)
+print (doppiatore (dato))
